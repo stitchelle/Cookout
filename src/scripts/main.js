@@ -37,3 +37,12 @@ function grill (currentObject) {
     // Put the cooked food into the appropriate array
     cookedFood.push(currentObject);
 };
+
+// Your task is to iterate over the array of foods and invoke the function for each item so that the cookedFood array contains all of the items after they are cooked.
+
+
+for (let i = 0; i < foods.length; i++) {
+    grill(foods[i])
+}
+
+console.log(cookedFood)
